@@ -7,16 +7,16 @@ public class UserRegistrationTest {
     UserRegistration userRegistration = new UserRegistration();
     boolean result;
 
-    //Test cases for password rule2 - atleast one Uppercase.
+    //Test cases for password rule 3 - atleast one numeric number.
     @Test
-    public void password_returnTrue_ifPasswordHavingAleastOneUpperCase(){
-        result = userRegistration.password("Abced1234");
+    public void password_returnTrue_ifPasswordHavingAleastOneNumeric(){
+        result = userRegistration.password("Abce1defg1");
         Assert.assertTrue(result);
     }
 
     @Test
-    public void password_returnFalse_ifPasswordNotHavingAleastOneUpperCase(){
-        result = userRegistration.password("abcedefgh");
+    public void password_returnFalse_ifPasswordNotHavingAleastOneNumeric(){
+        result = userRegistration.password("Abcedefghi");
         Assert.assertFalse(result);
     }
 }
