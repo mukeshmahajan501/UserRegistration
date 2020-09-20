@@ -1,8 +1,8 @@
 package com.bridgelab;
 
 public class UserRegistration {
-    //Method for checking mobile number
-    public boolean mobileNumber (String mobileNumber){
-        return mobileNumber.matches("^[0-9]{2}[ ][1-9]{1}[0-9]{9}");
+    //Method for checking valid password.
+    public boolean password (String password) {
+        return password.matches("^[a-zA-Z0-9]{8,}$");
     }
 }
