@@ -6,23 +6,22 @@ import org.junit.Test;
 public class UserRegistrationTest {
     UserRegistration userRegistration = new UserRegistration();
     boolean result;
-
-    //Test cases for last name
+    //Test cases for email
     @Test
-    public void lastName_returnsTrue_ifLastNameProper() {
-        result = userRegistration.lastName("Mahajan");
+    public void email_returnTrue_ifEmailIsProper(){
+        result = userRegistration.email("mukesh.mahajan@gmail.co.in");
         Assert.assertTrue(result);
     }
 
     @Test
-    public void lastName_returnsFalse_ifNumberOfCharDoesNotMatch() {
-        result = userRegistration.lastName("Ma");
+    public void email_returnFalse_ifEmailIsNotProper(){
+        result = userRegistration.email("mukesh.mahajan$blz.co.in");
         Assert.assertFalse(result);
     }
 
     @Test
-    public void lastName_returnFalse_ifFirstCharNotUppercase() {
-        result = userRegistration.lastName("mahajan");
+    public void email_returnFalse_ifInEmailSingleDotIsNotThere(){
+        result = userRegistration.email("mukesh.mahajan@gmail..com");
         Assert.assertFalse(result);
     }
 }
