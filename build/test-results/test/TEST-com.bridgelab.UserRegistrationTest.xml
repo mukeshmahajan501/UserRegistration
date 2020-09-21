@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelab.UserRegistrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-20T16:39:36" hostname="ABC" time="0.004">
+<testsuite name="com.bridgelab.UserRegistrationTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-09-21T03:08:08" hostname="ABC" time="0.053">
   <properties/>
-  <testcase name="password_returnTrue_ifPasswordHavingAleastOneSpecialCharacter" classname="com.bridgelab.UserRegistrationTest" time="0.003"/>
-  <testcase name="password_returnFalse_ifPasswordNotHavingAleastOneSecialCharacter" classname="com.bridgelab.UserRegistrationTest" time="0.0"/>
+  <testcase name="validEmail[0]" classname="com.bridgelab.UserRegistrationTest" time="0.003"/>
+  <testcase name="validEmail[1]" classname="com.bridgelab.UserRegistrationTest" time="0.002"/>
+  <testcase name="validEmail[2]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[3]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[4]" classname="com.bridgelab.UserRegistrationTest" time="0.0"/>
+  <testcase name="validEmail[5]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[6]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[7]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[8]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[9]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[10]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[11]" classname="com.bridgelab.UserRegistrationTest" time="0.002"/>
+  <testcase name="validEmail[12]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[13]" classname="com.bridgelab.UserRegistrationTest" time="0.01"/>
+  <testcase name="validEmail[14]" classname="com.bridgelab.UserRegistrationTest" time="0.002"/>
+  <testcase name="validEmail[15]" classname="com.bridgelab.UserRegistrationTest" time="0.002"/>
+  <testcase name="validEmail[16]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[17]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[18]" classname="com.bridgelab.UserRegistrationTest" time="0.0"/>
+  <testcase name="validEmail[19]" classname="com.bridgelab.UserRegistrationTest" time="0.0"/>
+  <testcase name="validEmail[20]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
+  <testcase name="validEmail[21]" classname="com.bridgelab.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
